@@ -7,9 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import component from "./component/Componen&Props/component"
 import state from "./component/Sate&Lifecycle/state" 
 import event from "./component/HandlingEvent/handle"
-
+import control from "./component/ConditionalRender/conditional"
 ReactDOM.render(
-  event,
+  control,
   document.getElementById('root')
 );
 
