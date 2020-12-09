@@ -8,8 +8,11 @@ import component from "./component/Componen&Props/component"
 import state from "./component/Sate&Lifecycle/state" 
 import event from "./component/HandlingEvent/handle"
 import control from "./component/ConditionalRender/conditional"
+import list_key from "./component/ListAndKeys/listandkeys"
+import form from "./component/Forms/form"
+import calculator from "./component/LifeStateUp/lifeStateUp"
 ReactDOM.render(
-  control,
+  calculator,
   document.getElementById('root')
 );
 
